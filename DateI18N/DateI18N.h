@@ -19,5 +19,7 @@ public:
 	bool is_month(std::string str);
 	bool is_day(std::string month, std::string year, std::string str);
 	virtual bool Validate(std::string date) = 0;
-	virtual std::vector<std::string> getDelimiter() = 0;
+	// virtual std::vector<std::string> getDelimiter() = 0;
+	//this is how I was going to impliment the templet pattern by having another class that inherited from each of my <format>Validator
+	//class and would handel dealing with which delimeter was used but I ran out of time
 };

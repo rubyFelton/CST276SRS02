@@ -33,6 +33,9 @@
     <ClInclude Include="DateI18N.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="YDMValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -51,6 +54,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YDMValidator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

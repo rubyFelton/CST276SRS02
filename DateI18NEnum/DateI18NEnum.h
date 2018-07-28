@@ -6,7 +6,7 @@
 class DateI18NEnum
 {
 public:
-	enum class Format { YMD, DMY, MDY };
+	enum class Format { YMD, DMY, MDY, YDM};
 	std::vector<std::string> delimiterList{ "/", ".", "_", " " };
 
 	DateI18NEnum();

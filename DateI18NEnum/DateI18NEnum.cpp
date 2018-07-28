@@ -117,6 +117,14 @@ bool DateI18NEnum::ValidateEnum(Format format, std::string date)
 			result = true;
 		}
 		break;
+		
+	case Format::YDM:
+
+		if (is_year(parts[3]) && is_day(parts[1], parts[3], parts[2]) && is_month(parts[1]) )
+		{
+			result = true;
+		}
+		break;
 	}
 	return result;
 }
